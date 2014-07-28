@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TravelDiary</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_text">Name</string>
+    <string name="email_text">Email</string>
+    <string name="pasword_text">Password</string>
+    <string name="telephone_txt">Telephone</string>
+    <string name="welcome_text">WELCOME</string>
+    <string name="travel_txt">Travel Diary</string>
+    <string name="ok">Ok</string>
+    
+    <string name="validator_srting_size">Entered password must contain atleast 6 characters</string>
+
+</resources>
