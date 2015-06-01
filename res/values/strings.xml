@@ -6,11 +6,33 @@
     <string name="name_text">Name</string>
     <string name="email_text">Email</string>
     <string name="pasword_text">Password</string>
-    <string name="telephone_txt">Telephone</string>
+    <string name="telephone_txt">Telephone(Optional)</string>
     <string name="welcome_text">WELCOME</string>
     <string name="travel_txt">Travel Diary</string>
-    <string name="ok">Ok</string>
-    
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="app_id">DFumqLoRRVs0uThEyUgEcsOWui1BGJCM1f9Uo1Hz</string>
+    <string name="client_key">mcdSwr3X8ozHCctmymaSegJiL0xA57IfKvre1bVB</string>
+    <string name="add_city_text">ADD CITY</string>
+    <string name="add_city">Add\nCity</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="trave_diary_text">MY TRAVEL DIARY</string>
+    <string name="added_city_text">Cities that are already added</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="plus">+</string>
+    <string name="empty">(empty)</string>
+    <string name="tour_title">Tour or Place Title:</string>
+    <string name="tour_desc">Write something about the tour or place:</string>
     <string name="validator_srting_size">Entered password must contain atleast 6 characters</string>
-
+    <string name="validator_duplicate_city">City already added</string>
+    <string name="validator_duplicate_place">Place already added</string>
+    <string name="no_internet">No Internet Connectivity</string>
+    <string name="add_photos_text">Add Photos</string>
+    <string name="share">Share</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+	<string name="descr_image">Image</string>
 </resources>

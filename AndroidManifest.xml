@@ -4,24 +4,73 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <uses-sdk
-        android:minSdkVersion="10"
+        android:minSdkVersion="9"
         android:targetSdkVersion="18" />
 
     <application
+        android:name="com.travel.app.application.TravelApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.travel.app.activity.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.travel.app.activity.LoginSignupActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.travel.app.activity.BlankActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.travel.app.activity.SecondScreeen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.travel.app.activity.ThirdScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.travel.app.activity.FourthScreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.travel.app.activity.FifthScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.travel.app.activity.AddPhotoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.travel.app.activity.ViewPhotosActivity" >
+        </activity>
+        <activity
+            android:name="com.travel.app.activity.ShareActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <service
+            android:name="com.travel.app.service.UploadService"
+            android:exported="false" />
     </application>
 
 </manifest>

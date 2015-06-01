@@ -10,6 +10,14 @@ package com.travel.app.activity;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int black=0x7f060003;
+        public static final int light_grey=0x7f060004;
+        public static final int list_grey=0x7f060001;
+        public static final int red=0x7f060002;
+        public static final int transparent=0x7f060005;
+        public static final int white=0x7f060000;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -17,42 +25,176 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f060000;
-        public static final int activity_vertical_margin=0x7f060001;
+        public static final int activity_horizontal_margin=0x7f070000;
+        public static final int activity_vertical_margin=0x7f070001;
     }
     public static final class drawable {
-        public static final int edit_text_border=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int add_button_selector=0x7f020000;
+        public static final int add_default=0x7f020001;
+        public static final int add_focussed=0x7f020002;
+        public static final int add_pressed=0x7f020003;
+        public static final int attachment=0x7f020004;
+        public static final int back=0x7f020005;
+        public static final int back_button_selector=0x7f020006;
+        public static final int back_default=0x7f020007;
+        public static final int back_focussed=0x7f020008;
+        public static final int back_pressed=0x7f020009;
+        public static final int button_focused=0x7f02000a;
+        public static final int calendar_button_selector=0x7f02000b;
+        public static final int calender_default=0x7f02000c;
+        public static final int calender_focussed=0x7f02000d;
+        public static final int calender_pressed=0x7f02000e;
+        public static final int camera_button_selector=0x7f02000f;
+        public static final int camera_default=0x7f020010;
+        public static final int camera_focussed=0x7f020011;
+        public static final int camera_pressed=0x7f020012;
+        public static final int edit_text_border=0x7f020013;
+        public static final int error=0x7f020014;
+        public static final int grid_item_selector=0x7f020015;
+        public static final int ic_empty=0x7f020016;
+        public static final int ic_error=0x7f020017;
+        public static final int ic_launcher=0x7f020018;
+        public static final int ic_stub=0x7f020019;
+        public static final int listview_divider=0x7f02001a;
+        public static final int login_ok_default=0x7f02001b;
+        public static final int login_ok_focussed=0x7f02001c;
+        public static final int login_ok_pressed=0x7f02001d;
+        public static final int loginok_button_selector=0x7f02001e;
+        public static final int ok_button_selector=0x7f02001f;
+        public static final int ok_default=0x7f020020;
+        public static final int ok_focussed=0x7f020021;
+        public static final int ok_pressed=0x7f020022;
+        public static final int panel_background=0x7f020023;
+        public static final int placeholder=0x7f020024;
+        public static final int rectangletextborder=0x7f020025;
+        public static final int text_background=0x7f020026;
+        public static final int video_button_selector=0x7f020027;
+        public static final int video_default=0x7f020028;
+        public static final int video_focussed=0x7f020029;
+        public static final int video_pressed=0x7f02002a;
     }
     public static final class id {
-        public static final int action_settings=0x7f080008;
-        public static final int button1=0x7f080007;
-        public static final int email_editText=0x7f080004;
-        public static final int imageView1=0x7f080000;
-        public static final int name_editText=0x7f080003;
-        public static final int password_editText=0x7f080005;
-        public static final int telephone_editText=0x7f080006;
-        public static final int travel_textView=0x7f080001;
-        public static final int welcome_textView=0x7f080002;
+        public static final int LinearLayout1=0x7f0a0011;
+        public static final int RelativeLayout1=0x7f0a000f;
+        public static final int action_settings=0x7f0a0037;
+        public static final int add_btn=0x7f0a000b;
+        public static final int back_button=0x7f0a0035;
+        public static final int bottom_layout=0x7f0a0018;
+        public static final int button1=0x7f0a0022;
+        public static final int calendar_Btn=0x7f0a001b;
+        public static final int cancel_Btn=0x7f0a001f;
+        public static final int city_listView=0x7f0a0020;
+        public static final int city_name_textView=0x7f0a0029;
+        public static final int container=0x7f0a000d;
+        public static final int dateTV=0x7f0a001c;
+        public static final int delete_Btn=0x7f0a001e;
+        public static final int delete_btn=0x7f0a002b;
+        public static final int editText1=0x7f0a0015;
+        public static final int editText2=0x7f0a0017;
+        public static final int email_editText=0x7f0a0005;
+        public static final int empty_textView=0x7f0a0021;
+        public static final int error_text=0x7f0a0003;
+        public static final int grid=0x7f0a0024;
+        public static final int icon=0x7f0a002f;
+        public static final int image=0x7f0a0027;
+        public static final int imageView=0x7f0a0026;
+        public static final int imageView1=0x7f0a0000;
+        public static final int imgView=0x7f0a002d;
+        public static final int item_no_textView=0x7f0a002a;
+        public static final int items=0x7f0a0031;
+        public static final int linearLayout1=0x7f0a0032;
+        public static final int linearLayout2=0x7f0a0033;
+        public static final int linearLayout3=0x7f0a0034;
+        public static final int loading=0x7f0a002c;
+        public static final int memory_layout=0x7f0a0013;
+        public static final int name_editText=0x7f0a0004;
+        public static final int okBtn=0x7f0a0008;
+        public static final int pager=0x7f0a0025;
+        public static final int password_editText=0x7f0a0006;
+        public static final int photo_Btn=0x7f0a0019;
+        public static final int progress=0x7f0a0028;
+        public static final int progressBar=0x7f0a002e;
+        public static final int rootLayout=0x7f0a000a;
+        public static final int save_Btn=0x7f0a001d;
+        public static final int shareFragment=0x7f0a0009;
+        public static final int share_btn=0x7f0a000c;
+        public static final int telephone_editText=0x7f0a0007;
+        public static final int textView1=0x7f0a000e;
+        public static final int textView3=0x7f0a0012;
+        public static final int textView4=0x7f0a0023;
+        public static final int textview_background=0x7f0a0036;
+        public static final int title=0x7f0a0030;
+        public static final int tour_desc=0x7f0a0016;
+        public static final int tour_title=0x7f0a0014;
+        public static final int travel_textView=0x7f0a0001;
+        public static final int video_Btn=0x7f0a001a;
+        public static final int welcom_textView=0x7f0a0010;
+        public static final int welcome_textView=0x7f0a0002;
+    }
+    public static final class integer {
+        public static final int column_count=0x7f080000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int activity_share_layout=0x7f030001;
+        public static final int add_photos_layout=0x7f030002;
+        public static final int blank=0x7f030003;
+        public static final int fifth_screen_layout=0x7f030004;
+        public static final int fourth_screen_layout=0x7f030005;
+        public static final int fr_image_grid=0x7f030006;
+        public static final int fr_image_pager=0x7f030007;
+        public static final int fragment_view_photos=0x7f030008;
+        public static final int item_grid_image=0x7f030009;
+        public static final int item_layout=0x7f03000a;
+        public static final int item_layout_second_screen=0x7f03000b;
+        public static final int item_layout_third_screen=0x7f03000c;
+        public static final int item_pager_image=0x7f03000d;
+        public static final int item_share_fragment=0x7f03000e;
+        public static final int menu_list_item=0x7f03000f;
+        public static final int popup_menu=0x7f030010;
+        public static final int second_screen_layout=0x7f030011;
+        public static final int third_screen_layout=0x7f030012;
+        public static final int view_photos_layout=0x7f030013;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f090000;
     }
     public static final class string {
         public static final int action_settings=0x7f05000d;
+        public static final int add_city=0x7f050019;
+        public static final int add_city_text=0x7f050018;
+        public static final int add_photos_text=0x7f050029;
+        public static final int added_city_text=0x7f05001c;
+        public static final int adicionar=0x7f05001a;
+        public static final int app_id=0x7f050016;
         public static final int app_name=0x7f05000c;
+        public static final int camera=0x7f05002b;
+        public static final int cancel=0x7f050020;
+        public static final int client_key=0x7f050017;
+        public static final int delete=0x7f05001f;
+        public static final int descr_image=0x7f05002d;
         public static final int email_text=0x7f05000f;
+        public static final int empty=0x7f050022;
+        public static final int gallery=0x7f05002c;
+        public static final int login=0x7f050014;
         public static final int name_text=0x7f05000e;
-        public static final int ok=0x7f050014;
+        public static final int no_internet=0x7f050028;
+        public static final int ok=0x7f05001d;
         public static final int pasword_text=0x7f050010;
+        public static final int plus=0x7f050021;
+        public static final int save=0x7f05001e;
+        public static final int share=0x7f05002a;
+        public static final int sign_up=0x7f050015;
         public static final int telephone_txt=0x7f050011;
+        public static final int tour_desc=0x7f050024;
+        public static final int tour_title=0x7f050023;
+        public static final int trave_diary_text=0x7f05001b;
         public static final int travel_txt=0x7f050013;
         public static final int validator_alnum=0x7f050004;
         public static final int validator_confirm=0x7f050003;
         public static final int validator_date=0x7f050009;
+        public static final int validator_duplicate_city=0x7f050026;
+        public static final int validator_duplicate_place=0x7f050027;
         public static final int validator_email=0x7f050000;
         public static final int validator_empty=0x7f050001;
         public static final int validator_hex=0x7f050005;
@@ -61,7 +203,7 @@ public final class R {
         public static final int validator_phone=0x7f050007;
         public static final int validator_range=0x7f050008;
         public static final int validator_regexp=0x7f050006;
-        public static final int validator_srting_size=0x7f050015;
+        public static final int validator_srting_size=0x7f050025;
         public static final int validator_url=0x7f050002;
         public static final int welcome_text=0x7f050012;
     }
@@ -92,6 +234,7 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f040002;
+        public static final int ProgressBarStyle=0x7f040003;
         public static final int Validator_Light=0x7f040000;
     }
 }
