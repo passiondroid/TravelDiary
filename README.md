@@ -1,3 +1,5 @@
+An simple app to save photos and memories while travelling to different places.
+
 # TravelDiary
 
 An simple app to save photos and memories while travelling to different places.
